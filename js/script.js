@@ -27,6 +27,7 @@ addContactBtn.addEventListener('click', () => {
     userChoice = prompt(
       'Type "new" to add a contact or "delete" to delete all contacts'
     );
+
     if (userChoice === 'new') {
       let newName = prompt('Enter name:');
       let newPhone = prompt('Enter phone number:');
